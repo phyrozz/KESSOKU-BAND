@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>結束バンド！</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <div id="sidebar-contents">
+            <a href="javascript:void(0)" id="close-btn" onclick="closeNav()">X</a>
+            <a href="#intro">Images</a>
+            <a href="#band-members">Band Members</a>
+            <a href="#music">Our Music</a>
+            <a href="#videos">Videos</a>
+            <a href="#merchs">Merchs</a>
+            <a href="#stream">Stream</a>
+        </div>
+        <div id="sidebar">
+            <button onclick="openNav()">☰</button>
+            <a href=""><img src="images/logo.png" alt="Band Logo"></a>
+        </div>
+        <div id="navbar">
+            <a href="#intro">Images</a>
+            <a href="#band-members">Band Members</a>
+            <a href="#music">Our Music</a>
+            <a href=""><img id="logo" src="images/logo.png" alt="Band Logo"></a>
+            <a href="#videos">Videos</a>
+            <a href="#merchs">Merchs</a>
+            <a href="#stream">Stream</a>
+
+        </div>
+        <div class="heading" data-aos="fade-down">
+            <p>We Are</p>
+            <h1>Kessoku Band!</h1>
+            <p>結束バンド</p>
+        </div>
+        <div class="container flex-column" id="intro">
+            <h2 data-aos="fade-in">Hello! We are a band from Tokyo!</h2>
+            <div class="collage flex-row">
+                <div data-aos="fade-up">
+                    <img src="images/band-1.jpg" alt="Band picture #1">
+                </div>
+                <div data-aos="fade-up">
+                    <img src="images/band-2.webp" alt="Band picture #2">
+                </div>
+                <div data-aos="fade-up">
+                    <img src="images/band-3.jpg" alt="Band picture #3">
+                </div>
+                <div data-aos="fade-up">
+                    <img src="images/band-4.jpg" alt="Band picture #4">
+                </div>
+                <div data-aos="fade-up">
+                    <img src="images/band-6.jpg" alt="Band picture #6">
+                </div>
+                <div data-aos="fade-up">
+                    <img src="images/band-7.jpg" alt="Band picture #7">
+                </div>
+            </div>
+        </div>
+        <div class="container flex-column">
+            <h2 data-aos="fade-in">Band Members</h2>
+            <div class="cards flex-row" id="band-members">
+                <a href="https://bocchi-the-rock.fandom.com/wiki/Ikuyo_Kita" target="_blank">
+                    <div id="ikuyo" data-aos="fade-up">
+                        <img src="images/ikuyo.png" alt="Ikuyo Kita">
+                    </div>
+                </a>
+                <a href="https://bocchi-the-rock.fandom.com/wiki/Hitori_Gotoh" target="_blank">
+                    <div id="bocchi" data-aos="fade-up">
+                        <img src="images/bocchi.png" alt="Bocchi Gotou">
+                    </div>
+                </a>
+                <a href="https://bocchi-the-rock.fandom.com/wiki/Ryo_Yamada" target="_blank">
+                    <div id="ryo" data-aos="fade-up">
+                        <img src="images/ryo.png" alt="Ryo Yamada">
+                    </div>
+                </a>
+                <a href="https://bocchi-the-rock.fandom.com/wiki/Nijika_Ijichi" target="_blank">
+                    <div id="nijika" data-aos="fade-up">
+                        <img src="images/nijika.png" alt="Nijika Ijichi">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="container flex-column">
+            <h2 data-aos="fade-in">Our Music</h2>
+            <div class="cards flex-row" id="music">
+                <div>
+                    <div class="hide">
+                        <a href="https://open.spotify.com/album/2i6HcZ86ErsCwxib4T11bk?si=Z7ZTKRGXR4G5e8kr247MAw" target="_blank"><img src="images/spotify.png"></a>
+                        <a href="https://music.apple.com/us/album/seisyun-complex/1646020667?i=1646020675" target="_blank"><img src="images/apple.webp"></a>
+                    </div>
+                    <img src="images/seishun.jpg" data-aos="fade-up">
+                </div>
+                <div>
+                    <div class="hide">
+                        <a href="https://open.spotify.com/album/3DbTDCUaGiepFrImJjsRse?si=yBKafQtYRGmiYrH60-1hIw" target="_blank"><img src="images/spotify.png"></a>
+                        <a href="https://music.apple.com/us/album/distortion/1646030812?i=1646030817" target="_blank"><img src="images/apple.webp"></a>
+                    </div>
+                    <img src="images/distortion.png" data-aos="fade-up">
+                </div>
+                <div>
+                    <div class="hide">
+                        <a href="https://open.spotify.com/album/3O6p7aec9kbcGAHVhuXDxs?si=ON3mr0aFTOi8E-YirsMf_g" target="_blank"><img src="images/spotify.png"></a>
+                        <a href="https://music.apple.com/us/album/karakara/1649508046?i=1649508073" target="_blank"><img src="images/apple.webp"></a>
+                    </div>
+                    <img src="images/karakara.jpg" data-aos="fade-up">
+                </div>
+                <div>
+                    <div class="hide">
+                        <a href="https://open.spotify.com/album/6PmIi4asxDdrpIcZKHYfWp?si=hyyVGNfoSJSNg0mjctFniQ" target="_blank"><img src="images/spotify.png"></a>
+                        <a href="https://music.apple.com/us/album/%E3%82%AE%E3%82%BF%E3%83%BC%E3%81%A8%E5%AD%A4%E7%8B%AC%E3%81%A8%E8%92%BC%E3%81%84%E6%83%91%E6%98%9F-single/1650726162" target="_blank"><img src="images/apple.webp"></a>
+                    </div>
+                    <img src="images/guitar.jpg" data-aos="fade-up">
+                </div>
+            </div>
+        </div>
+        <div class="container flex-column">
+            <h2 data-aos="fade-in">Videos</h2>
+            <div class="cards flex-row" id="videos">
+                <div data-aos="fade-up">
+                    <a href="https://www.youtube.com/watch?v=p010N38zFrA" target="_blank"><img src="images/videos-1.png"></a>
+                </div>
+                <div data-aos="fade-up">
+                    <a href="https://www.youtube.com/watch?v=B7BxrAAXl94" target="_blank"><img src="images/videos-2.png"></a>
+                </div>
+                <div data-aos="fade-up">
+                    <a href="https://youtu.be/5BUAJ1D-I-w" target="_blank"><img src="images/videos-3.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container flex-column" id="merchs">
+            <h2 data-aos="fade-in">Merchs</h2>
+            <p data-aos="fade-up">Coming soon!</p>
+        </div>
+        <div class="container flex-column">
+            <div class="flex-row" id="stream">
+                <a href="https://open.spotify.com/artist/2nvl0N9GwyX69RRBMEZ4OD?si=2o_STUszRieRUCjzZUp1mA" target="_blank"><img src="images/spotify.png" data-aos="fade-left"></a>
+                <a href="https://music.apple.com/us/artist/kessoku-band/1646020674" target="_blank"><img src="images/apple.webp" data-aos="fade-up"></a>
+                <a href="https://www.youtube.com/@aniplex" target="_blank"><img src="images/youtube.png" data-aos="fade-right"></a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>A Web Dev assignment by Joshua G. Malabanan</p>
+            <p>BSIT 3-1</p>
+            <p>Polytechnic University of the Philippines - Santa Rosa</p>
+        </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000
+            });
+        </script>
+    </body>
+</html>
